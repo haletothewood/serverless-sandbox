@@ -8,3 +8,14 @@ test-service/.serverless
 
 # Webpack directories
 test-service/.webpack
+
+# Test Service With Mocha
+# package directories
+test-service-with-mocha/node_modules
+test-service-with-mocha/jspm_packages
+
+# Serverless directories
+test-service-with-mocha/.serverless
+
+# Webpack directories
+test-service-with-mocha/.webpack

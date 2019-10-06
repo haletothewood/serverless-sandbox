@@ -1,0 +1,28 @@
+{
+  "name": "test-service-with-mocha",
+  "version": "1.0.0",
+  "description": "Testing serverless framework",
+  "main": "handler.js",
+  "scripts": {
+    "test": "mocha -r ts-node/register ./**/*.spec.ts"
+  },
+  "author": "David Halewood",
+  "license": "ISC",
+  "dependencies": {
+    "@types/aws-lambda": "^8.10.33",
+    "@types/chai": "^4.2.3",
+    "@types/mocha": "^5.2.7",
+    "@types/node": "^12.7.11",
+    "aws-lambda": "^0.1.2",
+    "chai": "^4.2.0",
+    "serverless-webpack": "^5.3.1",
+    "source-map-support": "^0.5.13",
+    "ts-loader": "^6.2.0",
+    "typescript": "^3.6.3",
+    "webpack": "^4.41.0"
+  },
+  "devDependencies": {
+    "serverless-mocha-plugin": "^1.11.0",
+    "ts-node": "^8.4.1"
+  }
+}
