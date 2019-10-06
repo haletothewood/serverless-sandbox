@@ -1,0 +1,10 @@
+# Test Service
+# package directories
+test-service/node_modules
+test-service/jspm_packages
+
+# Serverless directories
+test-service/.serverless
+
+# Webpack directories
+test-service/.webpack

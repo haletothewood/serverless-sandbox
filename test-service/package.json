@@ -1,0 +1,20 @@
+{
+  "name": "test-service",
+  "version": "1.0.0",
+  "description": "Testing serverless framework",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "David Halewood",
+  "license": "ISC",
+  "dependencies": {
+    "@types/aws-lambda": "^8.10.33",
+    "aws-lambda": "^0.1.2",
+    "serverless-webpack": "^5.3.1",
+    "source-map-support": "^0.5.13",
+    "ts-loader": "^6.2.0",
+    "typescript": "^3.6.3",
+    "webpack": "^4.41.0"
+  }
+}
