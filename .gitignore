@@ -19,3 +19,14 @@ test-service-with-mocha/.serverless
 
 # Webpack directories
 test-service-with-mocha/.webpack
+
+# Test Service With Jest
+# package directories
+test-service-with-jest/node_modules
+test-service-with-jest/jspm_packages
+
+# Serverless directories
+test-service-with-jest/.serverless
+
+# Webpack directories
+test-service-with-jest/.webpack

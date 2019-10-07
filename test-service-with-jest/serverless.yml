@@ -1,0 +1,25 @@
+
+service: test-service-with-jest
+app: test-app
+org: haletothewood
+
+plugins:
+  - serverless-webpack
+  - serverless-jest-plugin
+
+provider:
+  name: aws
+  runtime: nodejs8.10
+
+functions:
+  index:
+    handler: index.handler
+    events:
+      - http:
+          method: get
+          path: index
+
+package:
+  exclude:
+    - node_modules/**/*
+    

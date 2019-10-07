@@ -1,0 +1,27 @@
+{
+  "name": "test-service-with-jest",
+  "version": "1.0.0",
+  "main": "handler.ts",
+  "author": "David Halewood",
+  "license": "MIT",
+  "dependencies": {
+    "@types/aws-lambda": "^8.10.33",
+    "@types/jest": "^24.0.18",
+    "@types/node": "^12.7.11",
+    "aws-lambda": "^0.1.2",
+    "serverless-webpack": "^5.3.1",
+    "source-map-support": "^0.5.13",
+    "ts-loader": "^6.2.0",
+    "typescript": "^3.6.3",
+    "webpack": "^4.41.0"
+  },
+  "devDependencies": {
+    "jest": "^24.9.0",
+    "serverless-jest-plugin": "^0.2.1",
+    "ts-node": "^8.4.1"
+  },
+  "scripts": {
+    "test": "tsc && sls invoke test -f index",
+    "run:local": "tsc && sls invoke local -f index"
+  }
+}
