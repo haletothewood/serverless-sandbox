@@ -1,32 +1,10 @@
 # Test Service
 # package directories
-test-service/node_modules
-test-service/jspm_packages
+*/node_modules
+*/jspm_packages
 
 # Serverless directories
-test-service/.serverless
+*/.serverless
 
 # Webpack directories
-test-service/.webpack
-
-# Test Service With Mocha
-# package directories
-test-service-with-mocha/node_modules
-test-service-with-mocha/jspm_packages
-
-# Serverless directories
-test-service-with-mocha/.serverless
-
-# Webpack directories
-test-service-with-mocha/.webpack
-
-# Test Service With Jest
-# package directories
-test-service-with-jest/node_modules
-test-service-with-jest/jspm_packages
-
-# Serverless directories
-test-service-with-jest/.serverless
-
-# Webpack directories
-test-service-with-jest/.webpack
+*/.webpack
