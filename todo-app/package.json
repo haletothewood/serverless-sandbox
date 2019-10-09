@@ -1,0 +1,23 @@
+{
+  "name": "todo-app",
+  "version": "1.0.0",
+  "description": "Todo App to learn serverless with resources in AWS",
+  "main": "handler.ts",
+  "license": "MIT",
+  "dependencies": {
+    "@types/aws-lambda": "^8.10.33",
+    "@types/aws-sdk": "^2.7.0",
+    "@types/uuid": "^3.4.5",
+    "aws-sdk": "^2.544.0",
+    "serverless-plugin-typescript": "^1.1.9",
+    "typescript": "^3.6.3",
+    "uuid": "^3.3.3"
+  },
+  "scripts": {
+    "run:local": "sls invoke local -f create",
+    "deploy": "sls deploy"
+  },
+  "devDependencies": {
+    "serverless-offline": "^5.12.0"
+  }
+}
