@@ -8,7 +8,7 @@
     "@types/aws-lambda": "^8.10.33",
     "@types/jest": "^24.0.18",
     "@types/node": "^12.7.11",
-    "aws-lambda": "^0.1.2",
+    "aws-lambda": "^1.0.5",
     "serverless-webpack": "^5.3.1",
     "source-map-support": "^0.5.13",
     "ts-loader": "^6.2.0",
